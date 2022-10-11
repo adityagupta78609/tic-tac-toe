@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(184, 180, 180); */
+}
+nav ul {
+    list-style-type:none;
+    display:flex;
+    /* align-content: center; */
+    margin: auto;
+    font-family: 'Bungee Spice', cursive;
+}
+nav {
+    display:flex;
+    align-items: center; 
+    height:50px;
+    color:white;
+    background-color: #000;
+}
+body{
+    background-color: aliceblue; 
+}
+.game{
+    width:auto;
+    /* background-color: aliceblue; */
+    height: 95vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.c1,.c2{
+    width:49vw;
+}
+
+.container{
+    display:grid;
+    padding-left: 20vw;
+    grid-template-columns: 10vw 10vw 10vw;
+}
+.box{
+    height:10vw;
+}
+.box1 , .box4{
+    border-right: 5px solid rgb(45, 29, 29);
+    border-bottom:  5px solid rgb(45, 29, 29);
+}
+.box2 , .box5{
+    border-bottom:  5px solid rgb(45, 29, 29);
+    border-right:  5px solid rgb(45, 29, 29);
+}
+.box3 , .box6{
+    border-bottom:  5px solid rgb(45, 29, 29);
+}
+.box7 , .box8{
+    border-right:5px solid rgb(45, 29, 29) ;
+}
+.input{
+    width: 150px;
+    height:20px;
+    border-radius: 50px;
+}
+.gameinfo{
+    padding-left: 5vw;
+}
+#reset, .sub {
+    width:75px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(25, 10, 230);
+
+}
+#play{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(25, 10, 230);
+    width:120px;
+}
+.boxtext{
+    /* align-items: center; */
+    padding-left: 2vw;
+    display: inline-block;
+    width:10vw;
+    height:10vw;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 10vw;
+    font-weight: bold;
+}
+.box:hover{
+    background-color:rgb(149, 138, 109);
+    border-radius: 4px;
+}
+#info{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: xx-large;
+    /* font-style: italic; */
+    color: rgb(223, 189, 24);
+}
+ .imgbox img{
+    display:none;
+} 
